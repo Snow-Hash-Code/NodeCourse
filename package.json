@@ -1,0 +1,36 @@
+{
+  "name": "node-course",
+  "version": "1.0.0",
+  "description": "Curso de NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snow-Hash-Code/NodeCourse.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "javascript",
+    "modules",
+    "ecmascript6"
+  ],
+  "author": "snow-hash-code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snow-Hash-Code/NodeCourse/issues"
+  },
+  "homepage": "https://github.com/Snow-Hash-Code/NodeCourse#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
