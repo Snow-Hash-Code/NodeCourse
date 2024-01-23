@@ -21,7 +21,6 @@ const processRequest = (req, res) => {
       switch (url) {
         case '/pokemon': {
           let body = ''
-
           req.on('data', chunk => {
             body += chunk.toString()
           })

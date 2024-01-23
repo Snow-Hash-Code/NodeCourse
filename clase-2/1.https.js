@@ -15,6 +15,7 @@ const processRequest = (req, res) => {
         res.statusCode = 500
         res.end('<h1>500 Internal Server Error</h1>')
       } else {
+        res.statusCode = 200
         res.setHeader('Content-Type', 'image/jpg')
         res.end(data)
       }
